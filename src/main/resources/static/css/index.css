@@ -1,0 +1,34 @@
+@font-face{
+	font-family:'fzyyxi';
+	src:url('/static/fonts/FZLanTYJW_Xi.eot'),
+		url('/static/fonts/FZLanTYJW_Xi.svg'),
+		url('/static/fonts/FZLanTYJW_Xi.TTF');
+}
+
+
+body{	
+	font-family:'Segoe UI','fzyyxi';
+	font-size:16px;
+	line-height:24px;	
+}
+
+.navbar>span{
+	padding:0 0 0 1em;
+} 
+
+#article_cat{
+	width:auto;
+	text-align:center;
+	text-align-last:center;
+}
+
+
+#article_table tbody a{
+	text-decoration:none;
+	color:#2F4F4F;
+}
+
+#article_table tbody a:hover{
+	color:#66CDAA;
+}
+

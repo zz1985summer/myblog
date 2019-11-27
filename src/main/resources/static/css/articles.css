@@ -1,0 +1,88 @@
+@font-face{
+	font-family:'fzyyxi';
+	src:url('/static/fonts/FZLanTYJW_Xi.eot'),
+		url('/static/fonts/FZLanTYJW_Xi.svg'),
+		url('/static/fonts/FZLanTYJW_Xi.TTF');
+}
+
+body{	
+	font-family:'Segoe UI','fzyyxi';
+	font-size:16px;
+	line-height:24px;	
+}
+
+.navbar ul{
+	position:absolute;
+	right:20px;
+}
+
+.badge_nav {
+	padding:1.5rem;
+	margin-left:0;
+	margin-right:0;
+	border-width:.2rem;
+	text-align:center;
+}
+
+.badge_nav span {
+	padding:0.4em 1em;
+	font-size:1rem;
+}
+
+.nav li a {
+	position:relative;
+	color:black;
+}
+
+.nav li a:active{
+	color:#f77d62;
+}
+
+.nav li a:after{
+	content:"";
+	width:0;
+	height:2px;
+	background:rgba(182,155,149,.6);
+	position:absolute;
+	top:100%;
+	left:50%;
+	transition:all .7s;
+}
+
+.nav li a:hover:after{
+	left: 0%;
+    width: 100%;
+}
+
+#page_list{
+	overflow:hidden;
+	padding:auto 20px;
+}
+
+#page_list a{
+	color:#555;
+	font-weight:bold;
+}
+
+#page_list a:hover{
+	text-decoration:none;
+	text-decoration-color:rgba(0,0,0,.6);
+	color:black;
+}
+
+.list-group-item{
+	border:none;	
+	color:#555;
+	padding:auto 20px;
+	height:40rem;
+	padding-top:35px;
+}
+
+
+
+
+
+
+
+
+
